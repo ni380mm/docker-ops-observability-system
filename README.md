@@ -47,8 +47,8 @@
 ![Loki日志检索](images/04-loki-logs.png)
 
 ### 4. 自动化备份验证
-展示定时任务成功生成带时间戳的 `.sql.gz` 压缩包，并记录成功日志与清理记录。
-![数据库自动化备份](images/22-auto-backup.png)
+展示定时任务成功生成带时间戳的 `.sql.gz` 压缩包，并记录成功日志与清理记录，保障数据安全。
+![数据库自动化备份](images/24-auto-backup.png)
 
 ### 5. CI/CD 自动化交付流水线
 代码 Push 后自动触发 GitHub Actions，完成镜像构建并推送至 Docker Hub，随后通过 SSH 远程触发服务器更新。
