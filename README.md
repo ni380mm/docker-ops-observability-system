@@ -53,6 +53,7 @@
 ### 5. CI/CD 自动化交付流水线
 代码 Push 后自动触发 GitHub Actions，完成镜像构建并推送至 Docker Hub，随后通过 SSH 远程触发服务器更新。
 ![CI/CD自动化流水线](images/20-ci-cd-pipeline.png)
+*(最终成果）*
 ![CI/CD自动化流水线](images/23-ci-cd-pipeline.png)
 ---
 
